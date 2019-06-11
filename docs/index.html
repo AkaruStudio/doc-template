@@ -7,12 +7,29 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+
+  <style>
+    .markdown-section h1 {
+      font-size: 4rem;
+    }
+    .sidebar ul li, .sidebar ul li a {
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+    .sidebar ul li ul li, .sidebar ul li ul li a {
+      font-size: 1.2rem;
+    }
+    .sidebar ul li ul li ul li, .sidebar ul li ul li ul li a {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Guide avant une mise en production',
+      name: 'Ma documentation',
       loadSidebar: true
     }
   </script>
