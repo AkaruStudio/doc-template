@@ -13,4 +13,5 @@ npm run doc
 
 ## Sidebar
 
-Le contenu de la sidebar est généré suivant l'arborescence des dossiers/fichiers. Le premier H1 est utilisé comme titre, sinon c'est le nom du fichier 
+Le contenu de la sidebar est généré suivant l'arborescence des dossiers/fichiers.  
+Le premier H1 du .md est utilisé comme titre dans la sidebar, sinon c'est le nom du fichier 
